@@ -1,0 +1,19 @@
+.heroBackground {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #f4f2ec;
+
+  h1 {
+    font-size: 36px;
+  }
+}
