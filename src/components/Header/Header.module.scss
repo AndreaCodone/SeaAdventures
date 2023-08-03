@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f4f2ec; // Da cambiare con color-primary
+
+  .logo {
+    a {
+      display: inline-block;
+    }
+    img {
+      width: 60px;
+    }
+  }
+}
