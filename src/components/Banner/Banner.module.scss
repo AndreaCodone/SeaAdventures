@@ -1,17 +1,17 @@
-.heroBackground {
+.bannerBackground {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.heroContent {
+.bannerContent {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
-  color: #000; // Da cambiare in #fff
+  color: #000;
 
   h1 {
     font-size: 36px;
