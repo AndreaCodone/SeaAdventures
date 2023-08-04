@@ -5,9 +5,11 @@ import styles from "./Cards.module.scss";
 const Cards = () => {
   return (
     <>
-      {data.map((data) => (
-        <Card key={data.id} data={data} />
-      ))}
+      <div className={styles.cardsContainer}>
+        {data.map((data) => (
+          <Card key={data.id} data={data} />
+        ))}
+      </div>
     </>
   );
 };

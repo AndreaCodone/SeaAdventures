@@ -1,8 +1,6 @@
-.cards {
+.cardsContainer {
   display: flex;
-  border: 1px solid red;
-  width: 220px;
-  height: 240px;
-  border-radius: 4px;
-  margin: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 750px;
 }

@@ -21,9 +21,7 @@ export default function Home() {
       <main>
         <Header />
         <Hero />
-        {data.map((data) => (
-          <Cards key={data.id} data={data} />
-        ))}
+        <Cards />
         <Banner />
       </main>
     </>
